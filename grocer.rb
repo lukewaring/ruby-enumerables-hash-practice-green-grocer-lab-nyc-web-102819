@@ -21,6 +21,7 @@ end
 def apply_coupons(cart, coupons)
   coupons.map do |coupon|
     item = coupon[:item]
+    item_with_coupon = 
     if cart[item]
       if cart[item][:count] >= coupon[:num] && !cart["#{item} W/COUPON"]
         cart["#{item} W/COUPON"] = { price: coupon[:cost] / coupon[:num], clearance: cart[item][:clearance], count: coupon[:num] }
