@@ -35,9 +35,7 @@ end
 
 def apply_clearance(cart)
   cart.map do |product_name, stats|
-    if item[value][:clearance] == true
-      final_hash[item][value][:price] = final_hash[item][value][:price] * 0.8
-    end
+      
   end
   cart
 end
