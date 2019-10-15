@@ -35,10 +35,8 @@ end
 
 def apply_clearance(cart)
   final_hash = {}
-  cart.map do |element_hash|
-    element_name = element_hash.keys[0]
+  cart.map do |item|
     
-    if  
   end
 end
 
