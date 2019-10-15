@@ -45,5 +45,6 @@ end
 def checkout(cart, coupons)
   consolidate_cart(cart)
   cart = cart[0][:price]
+  cart
   #binding.pry
 end
