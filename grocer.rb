@@ -44,5 +44,6 @@ end
 
 def checkout(cart, coupons)
   consolidate_cart(cart)
-  cart[:price]
+  cart
+  binding.pry
 end
