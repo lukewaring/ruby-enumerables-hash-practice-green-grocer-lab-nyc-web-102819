@@ -40,8 +40,8 @@ def apply_clearance(cart)
   end
 end
 
-if :clearance == true 
-  :price - :price * .2 
+# if :clearance == true 
+#   :price - :price * .2 
 
 
 # def checkout(cart, coupons)
