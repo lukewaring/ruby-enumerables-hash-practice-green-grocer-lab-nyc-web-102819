@@ -34,7 +34,7 @@ def apply_coupons(cart, coupons)
 end
 
 def apply_clearance(cart)
-  cart.map do |product_name, stats|
+  cart.map do |product_name, product_stats|
     binding.pry    
   end
   cart
