@@ -36,8 +36,9 @@ end
 def apply_clearance(cart)
   final_hash = {}
   cart.map do |item|
-    
+    if item[]
   end
+  final_hash
 end
 
 # if :clearance == true 
