@@ -50,7 +50,7 @@ def apply_coupons(cart, coupons)
           clearance: cart[item][:clearance], count: coupon[:num]
           }
           cart[item][:count] -= coupon[:num]
-        else cart[coupon_item]
+        else
           cart[coupon_item][:count] += coupon[:num]
           cart[item][:count] -= coupon[:num]
         end
