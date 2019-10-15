@@ -36,7 +36,7 @@ end
 def apply_clearance(cart)
   cart.map do |product_name, product_stats|
     if product_stats[:clearance] == true 
-      product_stats[:price] * 0.8
+      product_stats[:price] = product_stats[:price] * 0.8
     binding.pry    
   end
   cart
